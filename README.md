@@ -1,0 +1,1 @@
+katallagent (καταλλάσσω, *katallassō* — "to exchange; to turn an enemy into a friend") is named for the root Hayek chose for his *catallaxy*: the order that emerges from exchange. A fitting image for a system where a single agent grows into a society of agents, and roles are earned through exchange rather than assigned. This is the claude lane's design repo.

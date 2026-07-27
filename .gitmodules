@@ -1,0 +1,3 @@
+[submodule "cross-team"]
+	path = cross-team
+	url = git@github.com:hotneutron/cross-team.git
