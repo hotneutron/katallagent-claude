@@ -1,0 +1,65 @@
+{
+  "_doc": "Consumer-owned live config for the cross-team bundle. This file is versioned by katallagent-claude and intentionally lives outside the cross-team/ submodule.",
+  "version": "1.0",
+  "parallax": {
+    "ledger_path": "sync_ledger.json",
+    "partners": {
+      "gpt": {
+        "path": "../katallagent-gpt",
+        "team_name": "katallagent-gpt",
+        "protocol_version": "2.2"
+      }
+    },
+    "tiers": {
+      "self_name": "katallagent-claude",
+      "addressed": ["reaction", "cross_check", "proposal"],
+      "addressed_to_us": [],
+      "atypes": {
+        "methodology": 1,
+        "findings": 2,
+        "plan": 2,
+        "schema_plan": 2,
+        "brainstorm": 3,
+        "backlog": 3,
+        "study": 3,
+        "domain_extension": 3,
+        "strategy": 3,
+        "exercise_step": 3,
+        "exercise_plan": 3,
+        "reflection": 4,
+        "report": 4
+      },
+      "triggers": [
+        ".plan/",
+        "sync_ledger.json",
+        "README.md",
+        "AGENTS.md"
+      ],
+      "contracts": [],
+      "doc_dirs": [".plan/"],
+      "promote_brainstorm": null
+    }
+  },
+  "warrant": {
+    "type_authority": {
+      "findings": "structured",
+      "exercise_step": "structured",
+      "methodology": "structured",
+      "plan": "derived",
+      "proposal": "derived",
+      "reflection": "derived",
+      "reaction": "derived",
+      "cross_check": "derived",
+      "study": "derived",
+      "brainstorm": "speculative",
+      "strategy": "speculative",
+      "schema_plan": "speculative",
+      "domain_extension": "speculative"
+    },
+    "config": {
+      "consumer_root": ".",
+      "docs_dir": ".plan",
+      "registry": "cross-team/artifact_types/artifact_types.json"
+    }
+  }
+}
