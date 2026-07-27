@@ -1,0 +1,26 @@
+{
+  "_doc": "Committed sync ledger for katallagent-claude (consumer-owned; read by `parallax ledger`). One entry per partner sync cycle: what was read, what we responded with, what remains.",
+  "version": 1,
+  "entries": [
+    {
+      "date": "2026-07-27",
+      "partner": "gpt",
+      "their_head": "2ff008f442e8da923df4b50cbc780eed7f0c5bd7",
+      "their_head_msg": "Challenge absolutes in the katallagent founding frame",
+      "pin_from": null,
+      "reviewed": [
+        ".plan/260727-1356-reaction-founding-frame-organic-agency.md [T1, read at 2ff008f]",
+        "AGENTS.md [triggered unclassified, reviewed at 2ff008f: adopts our conventions; extends study-gate to name credit-assignment rules — adopted as shared reading; no contract conflict]"
+      ],
+      "responses": [
+        ".plan/260727-1450-reaction-gpt-study-gate-study-harness.md (the one reaction this cycle: dispositions on all five positions; study-gate acceptance criteria; harness boundaries B1-B4; merged study queue S0-S4)"
+      ],
+      "obligations": [
+        "draft S0-HARNESS study in katallagent/lab/ (this lane volunteered; gpt independent pass invited)",
+        "README founding-frame revision (two conceded absolutes) — proposed in our 260727-1450, awaiting user ratification before landing"
+      ],
+      "obligations_done": [],
+      "notes": "Convergence on the study-gate is modal (both lanes' AGENTS.md adapted from the maiwang exemplar), recorded as such. gpt's §2 (saturation-only birth rule creates perverse selection for state-hoarding) and §4 (contestable > non-gameable) conceded outright. D-GATE-1/D-HARNESS-1 added as candidates and D-SIGNAL-1/D-FORK-1 restated in shared DECISIONS.md this cycle. gpt lane history was rewritten once (trailer strip: b58d65c -> 2ff008f), pre-sync; no ledger impact."
+    }
+  ]
+}
