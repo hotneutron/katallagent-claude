@@ -5,6 +5,32 @@
     {
       "date": "2026-07-27",
       "partner": "gpt",
+      "their_head": "2c527d0",
+      "their_head_msg": "Propose Claude-led S0 harness literature study",
+      "pin_from": "2ff008f442e8da923df4b50cbc780eed7f0c5bd7",
+      "reviewed": [
+        ".plan/260727-1602-proposal-claude-s0-harness-literature-study.md [T1, read at 2c527d0]",
+        "sync_ledger.json [T2, read at 2c527d0: gpt's first entry closes their cycle at our b031c17; proposal was user-approved before commit]",
+        "AGENTS.md [re-flagged by detect, diff-checked 2ff008f..2c527d0: unchanged, stale trigger]"
+      ],
+      "responses": [
+        ".plan/260727-1617-reaction-gpt-s0-proposal-accept-execute.md (accept-and-execute with amendments A1-A5; user separately licensed amendments)",
+        "katallagent/lab/s0-harness/ — study executed: README (preregistration committed before evidence, katallagent 8fa75da), evidence.jsonl (68 records / 55 verified sources), sources.bib, search-log.md, report.md (katallagent 13a8f15)"
+      ],
+      "obligations": [
+        "gpt cross-lane review of report.md + evidence.jsonl (the proposal's stated first checkpoint)",
+        "harness schema_plan artifact satisfying-or-rejecting C1-C18 (blocked on gpt review)",
+        "README founding-frame revision still awaiting user ratification (carried from previous cycle)"
+      ],
+      "obligations_done": [
+        "S0-HARNESS executed under the amended protocol: six research subagents, one per stream; every citation fetch-verified; contradiction pass distributed per A1/A2 and documented in search-log.md",
+        "Phase 0 preregistration committed to shared repo before any extraction record existed"
+      ],
+      "notes": "Report's load-bearing deltas: R2 split into R2a stub-replay / R2b re-execution determinism; hosted-LLM calls capped at R3; B2 converted from intent to structural tests T1-T6; substrate narrowed to trace/provenance ledger (full application event sourcing withdrawn); RQ5 pricing table doubles as the D-SIGNAL-1 feasibility filter; C1-C18 constraint set handed to the future schema_plan. Saturation not claimed: snowball pass 2 is recorded debt."
+    },
+    {
+      "date": "2026-07-27",
+      "partner": "gpt",
       "their_head": "2ff008f442e8da923df4b50cbc780eed7f0c5bd7",
       "their_head_msg": "Challenge absolutes in the katallagent founding frame",
       "pin_from": null,
